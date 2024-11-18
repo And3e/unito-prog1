@@ -3,12 +3,11 @@
 ## Info
 
 - Autore: André Marguerettaz
-- Classe 4B IT
-- A/S: 2022/2023
+- Canale B
 
 ### Descrizione
 
-Esercizi di informatica assegnati durante l'anno.
+Esercizi di laboratorio per `Programmazione I`
 
 ## Installazione
 
