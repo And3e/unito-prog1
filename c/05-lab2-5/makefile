@@ -2,7 +2,7 @@ FOLDER=$(notdir $(CURDIR))
 PREFIX=$(patsubst -%,%,$(subst 0,,$(shell echo $(FOLDER) | sed 's/[0-9]*//g')))
 COM="Upload di '$(PREFIX)'"
 
-OPZ=-Wall
+OPZ=-Wall -Werror
 SRC_DIR=../../src/
 
 ifeq ($(OS),Windows_NT)

@@ -2,7 +2,7 @@ FOLDER=$(notdir $(CURDIR))
 PREFIX=$(patsubst -%,%,$(subst 0,,$(shell echo $(FOLDER) | sed 's/[0-9]*//g')))
 COM="Upload di '$(PREFIX)'"
 
-OPZ=-Wall
+OPZ=-Wall -Werror
 LIB_DIR=../../lib/
 INCLUDE_O=$(LIB_DIR)base.o $(LIB_DIR)conversions.o
 INCLUDE_H=$(LIB_DIR)base.h $(LIB_DIR)conversions.h
