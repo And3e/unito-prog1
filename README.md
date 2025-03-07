@@ -15,8 +15,8 @@ Esercizi di laboratorio per `Programmazione I`
 ./INSTALL.md
 ```
 
-## Licenze
+## Licenza
 
 ```
-./COPYING
+./LICENSE
 ```
